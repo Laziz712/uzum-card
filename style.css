@@ -10,6 +10,9 @@
   display: flex;
   justify-content: space-around;
 }
+body {
+  background-color: blue;
+}
 .container {
   margin: 10px auto 0px;
   width: 400px;
@@ -90,4 +93,5 @@
 .star-comment {
   color: gray;
   padding: 4px 0px;
+
 }
