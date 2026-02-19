@@ -1,0 +1,93 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  margin: 10px auto 0px;
+  width: 400px;
+  border-radius: 20px;
+}
+.container .card-img img {
+  width: 100%;
+}
+.card-img img {
+  border-radius: 20px ;
+}
+.card-img-text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  color: #fff;
+}
+.card-img-text .arzon {
+  padding: 3px 8px;
+  background-color: rgb(243, 81, 81);
+  border-radius: 20px;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+}
+.card-img-text .savdo {
+  padding: 3px 8px;
+  background-color: rgb(243, 81, 81);
+  border-radius: 20px;
+  position: absolute;
+  top: -40px;
+  left: 200px;
+}
+.icons {
+  position: relative;
+
+}
+.icons .fa-heart {
+  position: absolute;
+  top: -520px;
+  left: 330px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #6a6767;
+  text-align: center;
+  padding-top: 18px;
+  border-radius: 50%;
+}
+.card-text {
+  padding: 0px 15px;
+}
+.savatga {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  border: none;
+  background-color: #7f4dff;
+  color: #fff;
+}
+.card-text h4 {
+  padding: 3px 0px;
+  color: #7f4dff;
+}
+.price {
+  color: gray;
+  padding: 3px 0px;
+}
+.yello-price {
+  padding: 4px;
+  background-color: yellow;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 4px 0px;
+}
+.star-comment {
+  color: gray;
+  padding: 4px 0px;
+}
